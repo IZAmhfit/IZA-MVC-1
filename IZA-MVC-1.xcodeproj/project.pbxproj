@@ -13,6 +13,12 @@
 		6C08B508241B89FF00777EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C08B506241B89FF00777EEF /* Main.storyboard */; };
 		6C08B50A241B8A0400777EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C08B509241B8A0400777EEF /* Assets.xcassets */; };
 		6C08B50D241B8A0400777EEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C08B50B241B8A0400777EEF /* LaunchScreen.storyboard */; };
+		6C08B516241B8B6100777EEF /* MojeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08B515241B8B6100777EEF /* MojeTable.swift */; };
+		6C08B518241B8DE700777EEF /* Books-Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08B517241B8DE700777EEF /* Books-Model.swift */; };
+		6C08B51A241B9A5E00777EEF /* pejsek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C08B519241B9A5E00777EEF /* pejsek.jpg */; };
+		6C08B51C241BC04300777EEF /* Book-Detail-VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08B51B241BC04300777EEF /* Book-Detail-VC.swift */; };
+		6C08B51E241BC06800777EEF /* General-VCs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08B51D241BC06800777EEF /* General-VCs.swift */; };
+		6C08B520241BD19600777EEF /* ArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08B51F241BD19600777EEF /* ArrayDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		6C08B509241B8A0400777EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C08B50C241B8A0400777EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C08B50E241B8A0400777EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C08B515241B8B6100777EEF /* MojeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojeTable.swift; sourceTree = "<group>"; };
+		6C08B517241B8DE700777EEF /* Books-Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Books-Model.swift"; sourceTree = "<group>"; };
+		6C08B519241B9A5E00777EEF /* pejsek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pejsek.jpg; sourceTree = "<group>"; };
+		6C08B51B241BC04300777EEF /* Book-Detail-VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book-Detail-VC.swift"; sourceTree = "<group>"; };
+		6C08B51D241BC06800777EEF /* General-VCs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "General-VCs.swift"; sourceTree = "<group>"; };
+		6C08B51F241BD19600777EEF /* ArrayDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,8 @@
 		6C08B4FF241B89FF00777EEF /* IZA-MVC-1 */ = {
 			isa = PBXGroup;
 			children = (
+				6C08B519241B9A5E00777EEF /* pejsek.jpg */,
+				6C08B514241B8B4600777EEF /* Demo TableView */,
 				6C08B500241B89FF00777EEF /* AppDelegate.swift */,
 				6C08B502241B89FF00777EEF /* SceneDelegate.swift */,
 				6C08B504241B89FF00777EEF /* ViewController.swift */,
@@ -65,6 +79,26 @@
 				6C08B50E241B8A0400777EEF /* Info.plist */,
 			);
 			path = "IZA-MVC-1";
+			sourceTree = "<group>";
+		};
+		6C08B514241B8B4600777EEF /* Demo TableView */ = {
+			isa = PBXGroup;
+			children = (
+				6C08B521241BD81300777EEF /* Model */,
+				6C08B515241B8B6100777EEF /* MojeTable.swift */,
+				6C08B51B241BC04300777EEF /* Book-Detail-VC.swift */,
+				6C08B51D241BC06800777EEF /* General-VCs.swift */,
+			);
+			path = "Demo TableView";
+			sourceTree = "<group>";
+		};
+		6C08B521241BD81300777EEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C08B517241B8DE700777EEF /* Books-Model.swift */,
+				6C08B51F241BD19600777EEF /* ArrayDataSource.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C08B50D241B8A0400777EEF /* LaunchScreen.storyboard in Resources */,
+				6C08B51A241B9A5E00777EEF /* pejsek.jpg in Resources */,
 				6C08B50A241B8A0400777EEF /* Assets.xcassets in Resources */,
 				6C08B508241B89FF00777EEF /* Main.storyboard in Resources */,
 			);
@@ -138,7 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C08B518241B8DE700777EEF /* Books-Model.swift in Sources */,
+				6C08B51E241BC06800777EEF /* General-VCs.swift in Sources */,
+				6C08B520241BD19600777EEF /* ArrayDataSource.swift in Sources */,
 				6C08B505241B89FF00777EEF /* ViewController.swift in Sources */,
+				6C08B51C241BC04300777EEF /* Book-Detail-VC.swift in Sources */,
+				6C08B516241B8B6100777EEF /* MojeTable.swift in Sources */,
 				6C08B501241B89FF00777EEF /* AppDelegate.swift in Sources */,
 				6C08B503241B89FF00777EEF /* SceneDelegate.swift in Sources */,
 			);
